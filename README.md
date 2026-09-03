@@ -9,3 +9,6 @@
     5. pwa应用；
     6. 打包成各平台应用；
 
+![playlist](doc/playlist.png)
+![playing](doc/playing.png)
+![setting](doc/setting.png)
