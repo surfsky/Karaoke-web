@@ -1,12 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#f59e0b"/>
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
-  <circle cx="256" cy="230" r="120" fill="none" stroke="white" stroke-width="12"/>
-  <circle cx="256" cy="230" r="40" fill="white"/>
-  <text x="256" y="400" text-anchor="middle" font-size="64" font-weight="bold" fill="white" font-family="sans-serif">♪</text>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512.000000" height="512.000000" fill="none" clip-path="url(#clipPath_2)" customFrame="url(#clipPath_2)">
+	<defs>
+		<linearGradient id="paint_linear_2" x1="35.9999847" x2="468.500061" y1="34.4999542" y2="409.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(101,89,248)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(146,40,252)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<clipPath id="clipPath_2">
+			<rect width="512.000000" height="512.000000" x="0.000000" y="0.000000" rx="128.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<g id="pixso_custom_effect_1">
+			<effect x="0.000000" y="4.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.25" effectType="dropShadow" stdDeviation="4" radius="0" />
+		</g>
+		<filter id="filter_1" width="189.500000" height="327.711914" x="161.000000" y="48.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_1)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feOffset dx="0.000000" dy="4.000000" in="SourceAlpha" />
+			<feGaussianBlur stdDeviation="1.33333337" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+	</defs>
+	<rect id="LOGO4" width="512.000000" height="512.000000" x="0.000000" y="0.000000" rx="128.000000" fill="url(#paint_linear_2)" />
+	<g filter="url(#filter_1)">
+		<path id="矢量 3" d="M346.5 107.5L346.5 81.4136L267.673 48L267.673 258.766C262.125 253.869 255.741 250.013 248.825 247.382C241.909 244.751 234.575 243.389 227.176 243.361C192.887 243.361 165 271.269 165 305.536C165 339.803 192.887 367.712 227.176 367.712C261.464 367.712 289.351 339.803 289.351 305.536C289.351 304.405 289.074 303.339 289.01 302.25L289.01 81.4136L346.5 107.5ZM227.176 346.375C204.644 346.375 186.337 328.068 186.337 305.536C186.337 283.005 204.644 264.697 227.176 264.697C249.707 264.697 268.014 283.005 268.014 305.536C268.014 328.068 249.686 346.375 227.176 346.375Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+	</g>
+	<path id="矢量 4" d="M14.7009 293L-4 335L-4 518L508 518L508 463L479.696 463L464.028 452L454.424 472.5L428.142 472.5L412.979 472.5L388.719 429.5L373.556 378.5L359.404 370L345.252 378.5L336.154 359L312.399 392.5L292.687 403.5L271.964 403.5L243.155 392.5L221.422 413L191.096 413L177.955 403.5L160.265 392.5L144.091 392.5L113.26 392.5L113.26 378.5L95.5696 378.5L82.4284 319L64.233 335L45.5321 319L24.8095 335L14.7009 293Z" fill="rgb(255,255,255)" fill-opacity="0.300000012" fill-rule="evenodd" />
+	<path id="矢量 4" d="M14.7009 293L24.8095 335L45.5321 319L64.233 335L82.4284 319L95.5696 378.5L113.26 378.5L113.26 392.5L144.091 392.5L160.265 392.5L177.955 403.5L191.096 413L221.422 413L243.155 392.5L271.964 403.5L292.687 403.5L312.399 392.5L336.154 359L345.252 378.5L359.404 370L373.556 378.5L388.719 429.5L412.979 472.5L428.142 472.5L454.424 472.5L464.028 452L479.696 463L508 463L508 518L-4 518L-4 335L14.7009 293Z" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-width="4.000000" />
 </svg>
