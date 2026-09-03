@@ -63,7 +63,7 @@ async function fetchArrayBuffer(
 }
 
 async function loadModelBuffer(): Promise<ArrayBuffer> {
-  const localUrl = '/models/htdemucs_embedded.onnx';
+  const localUrl = new URL('./models/htdemucs_embedded.onnx', location.href).href;
   const remoteUrl = CONSTANTS.DEFAULT_MODEL_URL;
 
   // 优先尝试本地模型（用户可下载放置到 public/models）
@@ -101,7 +101,7 @@ async function init() {
     ort.env.wasm.numThreads = isDev ? 0 : Math.max(1, (navigator.hardwareConcurrency || 4) - 1);
     ort.env.wasm.simd = true;
     ort.env.wasm.proxy = false;
-    ort.env.wasm.wasmPaths = new URL('/', location.href).href;
+    ort.env.wasm.wasmPaths = new URL('./', location.href).href;
     log('init', `wasm config: dev=${isDev}, numThreads=${ort.env.wasm.numThreads}, simd=${ort.env.wasm.simd}, wasmPaths=${ort.env.wasm.wasmPaths}`);
 
     // 优先启用 WebGPU 推理（若浏览器支持），开发环境禁用以免依赖 jsep worker

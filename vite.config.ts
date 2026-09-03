@@ -32,7 +32,7 @@ function onnxWasmMiddlewarePlugin() {
 }
 
 export default defineConfig({
-  base: '/Karaoke-web/',
+  base: './',
   plugins: [
     onnxWasmMiddlewarePlugin(),
     react(),
@@ -92,33 +92,33 @@ export default defineConfig({
         ],
       },
       manifest: {
-        id: '/Karaoke-web/',
+        id: './',
         name: 'Karaoke Web',
         short_name: 'Karaoke',
         description: '浏览器 K 歌应用，支持 AI 人声分离',
         theme_color: '#0f172a',
         background_color: '#0f172a',
         display: 'standalone',
-        start_url: '/Karaoke-web/',
-        scope: '/Karaoke-web/',
+        start_url: './',
+        scope: './',
         lang: 'zh-CN',
         orientation: 'any',
         categories: ['music', 'entertainment'],
         icons: [
           {
-            src: '/Karaoke-web/icons/icon-192.svg',
+            src: './icons/icon-192.svg',
             sizes: '192x192',
             type: 'image/svg+xml',
             purpose: 'any',
           },
           {
-            src: '/Karaoke-web/icons/icon-512.svg',
+            src: './icons/icon-512.svg',
             sizes: '512x512',
             type: 'image/svg+xml',
             purpose: 'any',
           },
           {
-            src: '/Karaoke-web/icons/icon-512.svg',
+            src: './icons/icon-512.svg',
             sizes: '512x512',
             type: 'image/svg+xml',
             purpose: 'maskable',
